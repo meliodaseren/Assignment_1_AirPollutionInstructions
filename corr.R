@@ -1,3 +1,4 @@
+
 corr <- function(directory, threshold = 0) {
        df <- complete(directory)
        ids <- df[df["nobs"] > threshold, ]$id
